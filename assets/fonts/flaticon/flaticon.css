@@ -1,0 +1,101 @@
+@font-face {
+    font-family: "flaticon";
+    src: url("./flaticon.ttf?333f12a7fb8ca74362c351f5df3e570e") format("truetype"),
+url("./flaticon.woff?333f12a7fb8ca74362c351f5df3e570e") format("woff"),
+url("./flaticon.woff2?333f12a7fb8ca74362c351f5df3e570e") format("woff2"),
+url("./flaticon.eot?333f12a7fb8ca74362c351f5df3e570e#iefix") format("embedded-opentype"),
+url("./flaticon.svg?333f12a7fb8ca74362c351f5df3e570e#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-call:before {
+    content: "\f101";
+}
+.flaticon-mail:before {
+    content: "\f102";
+}
+.flaticon-envelope:before {
+    content: "\f103";
+}
+.flaticon-email:before {
+    content: "\f104";
+}
+.flaticon-open-mail:before {
+    content: "\f105";
+}
+.flaticon-open-mail-1:before {
+    content: "\f106";
+}
+.flaticon-telephone:before {
+    content: "\f107";
+}
+.flaticon-phone-call:before {
+    content: "\f108";
+}
+.flaticon-search-interface-symbol:before {
+    content: "\f109";
+}
+.flaticon-search:before {
+    content: "\f10a";
+}
+.flaticon-right-arrow:before {
+    content: "\f10b";
+}
+.flaticon-court:before {
+    content: "\f10c";
+}
+.flaticon-court-1:before {
+    content: "\f10d";
+}
+.flaticon-hammer:before {
+    content: "\f10e";
+}
+.flaticon-gavel:before {
+    content: "\f10f";
+}
+.flaticon-avatar:before {
+    content: "\f110";
+}
+.flaticon-checkmark:before {
+    content: "\f111";
+}
+.flaticon-date:before {
+    content: "\f112";
+}
+.flaticon-comment:before {
+    content: "\f113";
+}
+.flaticon-double-angle-pointing-to-right:before {
+    content: "\f114";
+}
+.flaticon-placeholder:before {
+    content: "\f115";
+}
+.flaticon-plus:before {
+    content: "\f116";
+}
+.flaticon-add:before {
+    content: "\f117";
+}
+.flaticon-close:before {
+    content: "\f118";
+}
+.flaticon-left-arrow:before {
+    content: "\f119";
+}
+.flaticon-right-arrow-angle:before {
+    content: "\f11a";
+}
+.flaticon-straight-quotes:before {
+    content: "\f11b";
+}

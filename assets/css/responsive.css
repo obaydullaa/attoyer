@@ -1,0 +1,353 @@
+/* 
+    💥 Normal desktop  :1200px; 💥
+*/
+@media (min-width:1200px) {
+    .container {
+     max-width:1170px;
+    }
+    .about-signr .about-shape {
+        right: -3%;
+    }
+}
+
+/* 
+    💥 Normal desktop (LG- Device) :992px; 💥
+*/
+@media (min-width: 992px) and (max-width: 1200px) {
+    .about-image img {
+        max-width: 100%;
+    }
+    .abput-sing {
+        margin-left: 30px;
+    }
+    .about-signr .about-shape {
+        right: -5%;
+    }
+    .about-image::before {
+        left: -16px;
+    }
+    .testimonials-area .section-title h2 {
+        font-size: 35px;
+    }
+    .testimonial-active .slick-next.slick-arrow {
+        left: -38%;
+    }
+    .testimonial-active .slick-arrow {
+        top: 55%;
+    }
+    .faq-img img {
+        margin-left: -242px;
+        width: 156%;
+    }
+    .faq-area::before {
+        height: 488px;
+        width: 85%;
+        left: -282px;
+    }
+    .faq-area::after {
+        height: 40%;
+        width: 130px;
+        right: 0px;
+    }
+    .subscribe-form input {
+        width: inherit;
+    }
+    .subscribe-title h3 {
+        font-size: 28px;
+    }
+    .subscribe-form input {
+        margin-bottom: 15px;
+    }
+}
+ 
+/* 
+    💥 Tablet desktop(MD - Device) :768px; 💥  
+*/
+@media (min-width: 768px) and (max-width: 991px) {
+    .main-menu {
+        display: none;
+    }
+    .search-icon i {
+        font-size: 20px;
+    }
+    .header-bar i {
+        font-size: 20px;
+    }
+    .header-area .logo {
+        padding: 10px 0;
+    }
+    .single-slider{
+        height: 650px;
+    }
+    .about-image {
+        text-align: left;
+    }
+    .about-image img {
+        min-width: 100%;
+    }
+    .about-signr .about-shape {
+        right: 10%;
+        bottom: 60px;
+    }
+    .about-area h2 {
+        max-width: 77%;
+    }
+    .about-signr {
+        padding-bottom: 30px;
+    }
+    .team-img img {
+        min-width: 100%;
+    }
+    .cta-left h2 {
+        max-width: 72%;
+    }
+    .cta-left {
+        width: 48%;
+    }
+    .cta-left h2 {
+        max-width: 100%;
+        font-size: 40px;
+    }
+    .faq-area::before {
+        display: none;
+    }
+    .faq-right-wrapper {
+        padding-top: 50px;
+    }
+    .free-quote-area::before {
+        display: none;
+    }
+    .faq-img img {
+        margin-left: 0;
+        width: 100%;
+        padding-top: 110px;
+    }
+    .blog-meta span:first-child {
+        margin-right: 20px;
+    }
+    .subscribe-form input {
+        margin-bottom: 15px;
+    }
+    .subscribe-form {
+        text-align: left;
+    }
+    .attoyer-btn.subs-btn {
+        margin-left: -0;
+    }
+    .footer-quick-links-wrap {
+        padding-left: 0;
+    }
+}
+ 
+/* 
+    💥 small mobile (SM - Device) :320px; 💥 
+*/
+@media (max-width: 767px) {
+    .main-menu {
+        display: none;
+    }
+    .search-icon i {
+        font-size: 20px;
+    }
+    .header-bar i {
+        font-size: 20px;
+    }
+    .header-area .logo {
+        padding: 10px 0;
+    }
+    .header-top-area {
+        padding: 10px 0;
+        display: none;
+    }
+    .menu-wrapper {
+        padding-bottom: 5px;
+    }
+    .social-media ul {
+        display: flex;
+    }
+    .search-icon {
+        display: none;
+    }
+    .header-bar {
+        position: absolute;
+        right: 17px;
+        bottom: 13px;
+    }
+    .slider-content h2 {
+        font-size: 45px;
+    }
+    .single-slider{
+        height: 600px;
+    }
+    .about-image img {
+        width: 100%;
+    }
+    .about-area .section-title h2 {
+        min-width: 100%;
+    }
+    .abput-sing {
+        display: none;
+    }
+    .about-signr .about-shape {
+        bottom: 12px;
+        right: 0%;
+        display: none;
+    }
+    .section-title h2 {
+        font-size: 40px;
+    }
+    .team-img img {
+        width: 100%;
+    }
+    .choose-shap-img {
+        display: none;
+    }
+    .choose-us-area h2 {
+        max-width: 65%;
+    }
+    .choose-us-area h2 {
+        min-width: 100%;
+        font-size: 32px;
+    }
+    .cta-wrapper {
+        flex-direction: column;
+    }
+    .cta-left h2 {
+        max-width: 100%;
+        font-size: 30px;
+    }
+    .cta-right p {
+        font-size: 17px;
+    }
+    .faq-area::before {
+        display: none;
+    }
+    .faq-area::after {
+        display: none;
+    }
+    .faq-img img {
+        margin-left: 0;
+        width: 100%;
+        padding-top: 110px;
+    }
+    .faq-right-wrapper {
+        padding-top: 50px;
+    }
+    .free-quote-area::before {
+        display: none;
+    }
+    .faq-content-wrappper .card-header h2 a {
+        width: 95%;
+        font-size: 18px;
+    }
+    .blog-thumb img {
+        width: 100%;
+    }
+    .attoyer-btn.subs-btn {
+        margin-left: 0px;
+    }
+    .subscribe-title h3 {
+        margin-bottom: 45px;
+    }
+    .subscribe-form input {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .subscribe-form {
+        text-align: left;
+    }
+    .footer-quick-links-wrap {
+        padding-left: 0;
+    }
+    #scrollUp {
+        right: 15px;
+        bottom: 25px;
+    }
+}
+
+/* 
+    💥 Large Mobile :480px.; 💥
+*/
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .container {width:450px}
+    .menu-wrapper {
+        padding-bottom: 5px;
+    }
+    .header-bar {
+        bottom: -18px;
+    }
+    .single-cunter {
+        justify-content: center;
+    }
+    .subscribe-title h3 {
+        width: 60%;
+    }
+}
+
+/* 
+    💥 Mobile Menu Bar 💥
+*/
+@media only screen and (min-width: 480px) and (max-width: 575px) {
+    .header-bar {
+        bottom: 15px;
+    }
+}
+ 
+/* 
+    💥 Extra Small Mobile :370px; 💥
+*/
+@media only screen and (min-width: 220px) and (max-width: 370px) {
+    .logo img {
+        width: 160px;
+    }
+    .search-icon i {
+        font-size: 20px;
+    }
+    .header-bar i {
+        font-size: 20px;
+    }
+    .header-bar {
+        bottom: 8px;
+    }
+    .section-title h2 {
+        font-size: 30px;
+    }
+    .slider-content h2 {
+        font-size: 30px;
+    }
+    .attoyer-btn {
+        font-size: 16px;
+        padding: 25px 35px;
+    }
+    .services-content h4 a {
+        font-size: 22px;
+    }
+     h2 {
+        font-size: 30px;
+    }
+     h4 {
+        font-size: 20px;
+    }
+    .consultation-wrapper h2 {
+        font-size: 20px;
+    }
+    .blog-meta span:first-child {
+        margin-right: 10px;
+    }
+    .blog-meta a, .blog-meta i {
+        font-size: 14px;
+    }
+    .blog-content h4 a {
+        font-size: 18px;
+    }
+    .consultation-wrapper {
+        padding: 0 0;
+    }
+    .counter-icon i {
+        font-size: 50px;
+    }
+    .cta-right {
+        flex-direction: column;
+    }
+
+}
